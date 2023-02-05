@@ -1,0 +1,11 @@
+.tome__formoments{
+    margin-top: 90px;
+}
+
+.tome__formoments-heading{
+    font-family: var(--font-family);
+    font-size: 35px;
+    font-weight: 800;
+    text-align: center;
+    color: var(--color-heading);
+}

@@ -1,0 +1,22 @@
+.tome__frictionless{
+    margin-top: 90px;
+}
+.tome__frictionless-heading{
+    font-family: var(--font-family);
+    font-size: 35px;
+    font-weight: 800;
+    text-align: center;
+    color: var(--color-heading);
+}
+
+.tome__frictionless-paragraph p{
+    text-align: center;
+    font-family: var(--font-family);
+    margin: 1rem 30rem 1rem;
+    color: var(--color-para);
+}
+
+.tome__frictionless-video{
+    padding: 1rem 34rem;
+    margin: 0 0 30px;
+}

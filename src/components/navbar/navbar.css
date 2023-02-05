@@ -1,0 +1,75 @@
+.tome__navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+    padding: 2rem 1rem;
+    
+    margin:0px 60px 0px;
+    height: min-content;
+    background: #000;
+}
+.tome__navbar-blackbar{
+    padding-top: 1rem;
+}
+
+.tome__navbar-links{
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 0px;
+}
+.tome__navbar-links_logo{
+    margin-right: 60rem;
+}
+
+.tome__navbar-links_logo img{
+    width: 99.08px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.tome__navbar-sign button{
+    background-color: rgb(31,31,31);
+    backface-visibility: hidden;
+    box-sizing: border-box;
+    padding: 10px 12px;
+    color: rgb(166,166,166);
+    cursor: pointer;
+    display: block;
+    font-family: var(--font-family);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 13px;
+    opacity: 1;
+    position: relative;
+    border-radius: 6px;
+    margin-left: 33rem;
+    margin-right: 20px;
+    cursor: pointer;
+    position: relative;
+}
+
+.tome__navbar-sign{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+}
+
+.tome__menuicon img{
+    padding-left: 10px;
+    width: 52px;
+    height: 36px;
+    cursor: pointer;
+    position: relative;
+}
+
+.tome__navbar.fixed{
+    transition: all .3s ease-in-out;
+}
+
+.tome__navbar nav{
+    position: fixed;
+}

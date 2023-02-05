@@ -1,0 +1,22 @@
+.tome__madetowork{
+    margin-top: 90px;
+}
+
+.tome__madetowork-heading{
+    font-family: var(--font-family);
+    font-size: 35px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.tome__madetowork-paragraph p{
+    text-align: center;
+    font-family: var(--font-family);
+    margin: 1rem 30rem 1rem;
+    color: var(--color-para);
+}
+
+.tome__madetowork-video{
+    padding: 1rem 44rem;
+    margin: 0 0 30px;
+}
